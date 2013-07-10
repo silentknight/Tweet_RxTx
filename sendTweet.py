@@ -30,7 +30,14 @@ def do_tweet (st):
 	f.write(data)
 	f.close()
 
+
+def getTokens():
+	
 def main():
+
+	[consumer_key, oauth_token] = getTokens()
+	
+
 	do_tweet ("Hello Goodmorning...!!!")
 
 if __name__ == "__main__":
