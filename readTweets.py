@@ -123,7 +123,6 @@ def getCurlRequest(url, method, data, header, verbose):
 	if(verbose == True):
 		temp += " --verbose"	
 
-	print temp
 	return temp
 
 
