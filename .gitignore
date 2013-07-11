@@ -36,3 +36,7 @@ nosetests.xml
 
 # Ignore files
 tweets.txt
+tokens/token.json
+tokens/nonce.json
+trash/settings.cfg
+trash/twitter_sign.py
